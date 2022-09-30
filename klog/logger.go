@@ -1,7 +1,7 @@
 package klog
 
 import (
-	"Lplot/env"
+	"github.com/peerless6372/Lplot/env"
 	"io"
 	"os"
 	"strings"

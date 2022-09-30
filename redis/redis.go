@@ -1,11 +1,11 @@
 package redis
 
 import (
-	"Lplot/env"
-	"Lplot/klog"
-	"Lplot/utils"
 	"errors"
 	"fmt"
+	"github.com/peerless6372/Lplot/env"
+	"github.com/peerless6372/Lplot/klog"
+	"github.com/peerless6372/Lplot/utils"
 	"time"
 
 	"github.com/gin-gonic/gin"

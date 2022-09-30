@@ -1,7 +1,7 @@
 package klog
 
 import (
-	"Lplot/env"
+	"github.com/peerless6372/Lplot/env"
 	"go.uber.org/zap"
 	"go.uber.org/zap/buffer"
 	"go.uber.org/zap/zapcore"

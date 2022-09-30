@@ -1,8 +1,8 @@
 package klog
 
 import (
-	"Lplot/utils"
 	"fmt"
+	"github.com/peerless6372/Lplot/utils"
 	"io/ioutil"
 	"os"
 	"path/filepath"

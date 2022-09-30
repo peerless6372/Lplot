@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"Lplot/utils/metadata"
 	"github.com/gin-gonic/gin"
+	"github.com/peerless6372/Lplot/utils/metadata"
 )
 
 func Metadata() gin.HandlerFunc {

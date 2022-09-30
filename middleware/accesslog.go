@@ -1,10 +1,11 @@
 package middleware
 
 import (
-	"Lplot/klog"
-	"Lplot/utils"
 	"bytes"
 	"fmt"
+	"github.com/peerless6372/Lplot/base"
+	"github.com/peerless6372/Lplot/klog"
+	"github.com/peerless6372/Lplot/utils"
 	"io/ioutil"
 	"strings"
 	"time"

@@ -1,9 +1,9 @@
 package redis
 
 import (
-	"Lplot/klog"
-	"Lplot/utils"
 	"errors"
+	"github.com/peerless6372/Lplot/klog"
+	"github.com/peerless6372/Lplot/utils"
 	"time"
 
 	"github.com/gin-gonic/gin"

@@ -1,11 +1,11 @@
 package Lplot
 
 import (
-	"Lplot/base"
-	"Lplot/env"
-	"Lplot/middleware"
-	"Lplot/server/unix"
 	"github.com/gin-gonic/gin"
+	"github.com/peerless6372/Lplot/base"
+	"github.com/peerless6372/Lplot/env"
+	"github.com/peerless6372/Lplot/middleware"
+	"github.com/peerless6372/Lplot/server/unix"
 )
 
 type BootstrapConf struct {

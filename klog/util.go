@@ -1,7 +1,7 @@
 package klog
 
 import (
-	"Lplot/utils/metadata"
+	"github.com/peerless6372/Lplot/utils/metadata"
 	"strconv"
 	"time"
 
