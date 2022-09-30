@@ -1,7 +1,6 @@
 package middleware
 
 import (
-	"Lplot/base"
 	"Lplot/klog"
 	"Lplot/utils"
 	"bytes"

@@ -1,4 +1,4 @@
-module Lplot
+module github.com/peerless6372/Lplot
 
 go 1.19
 
