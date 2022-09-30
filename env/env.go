@@ -1,7 +1,7 @@
 package env
 
 import (
-	"Lplot/utils"
+	"github.com/peerless6372/Lplot/utils"
 	"os"
 	"path/filepath"
 
