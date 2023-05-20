@@ -3,7 +3,7 @@ package metadata
 import (
 	"context"
 
-	"github.com/gin-gonic/gin"
+	""lzh/gin-gonic/gin""
 )
 
 const _CTX_KEY = "goframework/net/metadata.ctx"

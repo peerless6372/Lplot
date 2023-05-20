@@ -5,8 +5,8 @@ import (
 	"github.com/peerless6372/Lplot/utils"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	redigo "github.com/gomodule/redigo/redis"
+	"lzh/gin-gonic/gin"
 )
 
 func (r *Redis) Lua(ctx *gin.Context, script string, keyCount int, keysAndArgs ...interface{}) (interface{}, error) {

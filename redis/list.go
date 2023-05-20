@@ -3,7 +3,7 @@ package redis
 import (
 	"strings"
 
-	"github.com/gin-gonic/gin"
+	"lzh/gin-gonic/gin"
 
 	"github.com/gomodule/redigo/redis"
 )
@@ -57,9 +57,11 @@ func (r *Redis) RPopLPush(ctx *gin.Context, sourceKey string, destKey string) ([
 
 // 根据参数 count 的值，移除列表中与参数 value 相等的元素
 // count 的值可以是以下几种：
-//     count > 0 : 从表头开始向表尾搜索，移除与 value 相等的元素，数量为 count 。
-//     count < 0 : 从表尾开始向表头搜索，移除与 value 相等的元素，数量为 count 的绝对值。
-//     count = 0 : 移除表中所有与 value 相等的值。
+//
+//	count > 0 : 从表头开始向表尾搜索，移除与 value 相等的元素，数量为 count 。
+//	count < 0 : 从表尾开始向表头搜索，移除与 value 相等的元素，数量为 count 的绝对值。
+//	count = 0 : 移除表中所有与 value 相等的值。
+//
 // return: 被移除元素的数量
 func (r *Redis) LRem(ctx *gin.Context, key string, count int, value interface{}) (int, error) {
 	if res, err := redis.Int(r.Do(ctx, "LREM", key, count, value)); err == redis.ErrNil {

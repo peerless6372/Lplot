@@ -1,7 +1,7 @@
 package Lplot
 
 import (
-	"github.com/gin-gonic/gin"
+	""lzh/gin-gonic/gin""
 	"github.com/peerless6372/Lplot/base"
 	"github.com/peerless6372/Lplot/env"
 	"github.com/peerless6372/Lplot/middleware"

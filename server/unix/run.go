@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/gin-gonic/gin"
+	"lzh/gin-gonic/gin"
 )
 
 const (

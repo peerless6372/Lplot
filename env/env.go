@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gin-gonic/gin"
+	"lzh/gin-gonic/gin"
 )
 
 const DefaultRootPath = "."

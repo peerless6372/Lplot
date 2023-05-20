@@ -1,9 +1,9 @@
 package redis
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/gomodule/redigo/redis"
 	"github.com/pkg/errors"
+	"lzh/gin-gonic/gin"
 )
 
 const (
@@ -12,12 +12,12 @@ const (
 	NOTEXISTS       = "NX"
 )
 
-//设置过期时间为秒级的redis分布式锁
+// 设置过期时间为秒级的redis分布式锁
 func (r *Redis) SetNxByEX(ctx *gin.Context, key string, value interface{}, expire uint64) (bool, error) {
 	return r.tryLock(ctx, key, value, expire, EXSECONDS)
 }
 
-//设置过期时间为毫秒的redis分布式锁
+// 设置过期时间为毫秒的redis分布式锁
 func (r *Redis) SetNxByPX(ctx *gin.Context, key string, value interface{}, expire uint64) (bool, error) {
 	return r.tryLock(ctx, key, value, expire, PXMILLISSECONDS)
 }

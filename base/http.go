@@ -1,14 +1,14 @@
 package base
 
 import (
-	"Lplot/env"
-	"Lplot/klog"
-	"Lplot/utils"
 	"bytes"
 	"context"
 	"crypto/tls"
 	"errors"
 	"fmt"
+	"github.com/peerless6372/Lplot/env"
+	"github.com/peerless6372/Lplot/klog"
+	"github.com/peerless6372/Lplot/utils"
 	"io"
 	"io/ioutil"
 	"net"
@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	json "github.com/json-iterator/go"
+	"lzh/gin-gonic/gin"
 )
 
 const HttpHeaderService = "SERVICE"

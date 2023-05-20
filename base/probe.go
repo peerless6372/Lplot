@@ -1,6 +1,6 @@
 package base
 
-import "github.com/gin-gonic/gin"
+import "lzh/gin-gonic/gin"
 
 type Probe struct {
 	health *gin.HandlerFunc

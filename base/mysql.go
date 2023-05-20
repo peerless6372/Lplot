@@ -1,19 +1,19 @@
 package base
 
 import (
-	"Lplot/env"
-	"Lplot/klog"
-	"Lplot/utils"
 	"context"
 	"fmt"
+	"github.com/peerless6372/Lplot/env"
+	"github.com/peerless6372/Lplot/klog"
+	"github.com/peerless6372/Lplot/utils"
 	"time"
 
-	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	ormUtil "gorm.io/gorm/utils"
+	"lzh/gin-gonic/gin"
 )
 
 const prefix = "@@mysql."

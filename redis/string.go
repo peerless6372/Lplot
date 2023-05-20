@@ -4,7 +4,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/gin-gonic/gin"
+	"lzh/gin-gonic/gin"
 
 	"github.com/gomodule/redigo/redis"
 	"github.com/pkg/errors"

@@ -1,11 +1,11 @@
 package base
 
 import (
-	"Lplot/redis"
-	"Lplot/utils"
+	"github.com/peerless6372/Lplot/redis"
+	"github.com/peerless6372/Lplot/utils"
 	"time"
 
-	"github.com/gin-gonic/gin"
+	"lzh/gin-gonic/gin"
 )
 
 // deprecated

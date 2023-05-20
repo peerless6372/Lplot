@@ -1,8 +1,8 @@
 package base
 
 import (
-	"Lplot/env"
-	"Lplot/klog"
+	"github.com/peerless6372/Lplot/env"
+	"github.com/peerless6372/Lplot/klog"
 	"net/http"
 	"strings"
 

@@ -1,9 +1,9 @@
 package klog
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/peerless6372/Lplot/env"
 	"go.uber.org/zap"
+	"lzh/gin-gonic/gin"
 )
 
 func GetZapLogger() (l *zap.Logger) {

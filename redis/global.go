@@ -1,8 +1,8 @@
 package redis
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/gomodule/redigo/redis"
+	"lzh/gin-gonic/gin"
 )
 
 func (r *Redis) Expire(ctx *gin.Context, key string, time int64) (bool, error) {
