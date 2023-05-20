@@ -5,7 +5,7 @@ import (
 	"github.com/peerless6372/Lplot/utils"
 	"time"
 
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 // deprecated

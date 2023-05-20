@@ -2,7 +2,7 @@ package redis
 
 import (
 	"github.com/gomodule/redigo/redis"
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 // 将一个或多个 member 元素加入到集合 key 当中，已经存在于集合的 member 元素将被忽略

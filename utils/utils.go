@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 func Int64sContain(a []int64, x int64) bool {

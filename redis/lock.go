@@ -2,8 +2,8 @@ package redis
 
 import (
 	"github.com/gomodule/redigo/redis"
+	"github.com/peerless6372/gin"
 	"github.com/pkg/errors"
-	"lzh/gin-gonic/gin"
 )
 
 const (

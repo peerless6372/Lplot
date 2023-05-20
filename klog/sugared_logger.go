@@ -2,8 +2,8 @@ package klog
 
 import (
 	"github.com/peerless6372/Lplot/env"
+	"github.com/peerless6372/gin"
 	"go.uber.org/zap"
-	"lzh/gin-gonic/gin"
 )
 
 // GetLogger 获得一个新的logger 会把日志打印到 name.log 中，不建议业务使用

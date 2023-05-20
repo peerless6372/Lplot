@@ -3,7 +3,7 @@ package redis
 import (
 	"strings"
 
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 
 	"github.com/gomodule/redigo/redis"
 )

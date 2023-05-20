@@ -6,9 +6,9 @@ import (
 	"github.com/peerless6372/Lplot/base"
 	"github.com/peerless6372/Lplot/klog"
 	"github.com/peerless6372/Lplot/utils"
+	"github.com/peerless6372/gin"
 	"github.com/pkg/errors"
 	"io/ioutil"
-	"lzh/gin-gonic/gin"
 	"strings"
 	"time"
 )

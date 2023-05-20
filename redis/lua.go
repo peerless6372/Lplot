@@ -6,7 +6,7 @@ import (
 	"time"
 
 	redigo "github.com/gomodule/redigo/redis"
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 func (r *Redis) Lua(ctx *gin.Context, script string, keyCount int, keysAndArgs ...interface{}) (interface{}, error) {

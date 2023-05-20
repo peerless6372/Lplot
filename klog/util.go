@@ -2,7 +2,7 @@ package klog
 
 import (
 	"github.com/peerless6372/Lplot/utils/metadata"
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 	"strconv"
 	"time"
 )

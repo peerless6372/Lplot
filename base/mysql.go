@@ -9,11 +9,11 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/peerless6372/gin"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	ormUtil "gorm.io/gorm/utils"
-	"lzh/gin-gonic/gin"
 )
 
 const prefix = "@@mysql."

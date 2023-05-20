@@ -7,7 +7,7 @@ import (
 	"math"
 	"strconv"
 
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 func (r *Redis) HSet(ctx *gin.Context, key, field string, val interface{}) (int, error) {

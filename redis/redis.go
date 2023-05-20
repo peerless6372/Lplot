@@ -9,7 +9,7 @@ import (
 	"time"
 
 	redigo "github.com/gomodule/redigo/redis"
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 // 日志打印Do args部分支持的最大长度

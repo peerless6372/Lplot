@@ -4,7 +4,7 @@ import (
 	"syscall"
 
 	"github.com/fvbock/endless"
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 var CurrentPid int

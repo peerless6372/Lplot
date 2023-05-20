@@ -2,7 +2,7 @@ package http
 
 import (
 	"github.com/fvbock/endless"
-	"lzh/gin-gonic/gin"
+	"github.com/peerless6372/gin"
 )
 
 func Start(engine *gin.Engine, conf ServerConfig) error {
