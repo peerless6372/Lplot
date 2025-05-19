@@ -8,8 +8,7 @@
 
 go get -u github.com/peerless6372/Lplot@lastet
 
----
-By the way,名字为  谋  ，意为开始之前，谋划好一切
+
 
 
 # Lplot
